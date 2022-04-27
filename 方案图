@@ -1,1 +1,105 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T08:15:15.067Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" version="17.4.6" etag="0-fZeYwUTFgKvcwj9TIH" type="github"><diagram id="U1_kvgq4A69lsCjZFVUU">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-27T08:35:07.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="mUqxjvUEWGPJf4whIib5" version="17.4.6" type="github">
+  <diagram id="U1_kvgq4A69lsCjZFVUU" name="第 1 页">
+    <mxGraphModel dx="865" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4Dm29dhwyNFMo1qhfpyT-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="1" source="4Dm29dhwyNFMo1qhfpyT-1" target="4Dm29dhwyNFMo1qhfpyT-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="335" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="320" />
+              <mxPoint x="360" y="320" />
+              <mxPoint x="360" y="360" />
+              <mxPoint x="530" y="360" />
+              <mxPoint x="530" y="336" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Dm29dhwyNFMo1qhfpyT-1" value="解码矩阵RAM" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="220" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Dm29dhwyNFMo1qhfpyT-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="1" source="4Dm29dhwyNFMo1qhfpyT-2" target="4Dm29dhwyNFMo1qhfpyT-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="305" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="320" />
+              <mxPoint x="520" y="320" />
+              <mxPoint x="520" y="304" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Dm29dhwyNFMo1qhfpyT-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="1" source="4Dm29dhwyNFMo1qhfpyT-2" target="4Dm29dhwyNFMo1qhfpyT-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="320" />
+              <mxPoint x="520" y="370" />
+              <mxPoint x="200" y="370" />
+              <mxPoint x="200" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Dm29dhwyNFMo1qhfpyT-2" value="解码矩阵计算模块" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="380" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Dm29dhwyNFMo1qhfpyT-8" value="矩阵乘法模块" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="600" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Dm29dhwyNFMo1qhfpyT-20" value="控制器" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="220" y="220" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4Dm29dhwyNFMo1qhfpyT-21" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=宋体;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="240" as="sourcePoint" />
+            <mxPoint x="220" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Dm29dhwyNFMo1qhfpyT-23" value="幸存模式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="130" y="225" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Dm29dhwyNFMo1qhfpyT-27" value="恢复数据块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="750" y="305" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Dm29dhwyNFMo1qhfpyT-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=宋体;" edge="1" parent="1" source="4Dm29dhwyNFMo1qhfpyT-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="370" as="sourcePoint" />
+            <mxPoint x="750" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Dm29dhwyNFMo1qhfpyT-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="1" source="4Dm29dhwyNFMo1qhfpyT-37" target="4Dm29dhwyNFMo1qhfpyT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Dm29dhwyNFMo1qhfpyT-37" value="MUX" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=90;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="535" y="302.5" width="65" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="4Dm29dhwyNFMo1qhfpyT-39" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=宋体;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="279.58" y="290" as="sourcePoint" />
+            <mxPoint x="279.58" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Dm29dhwyNFMo1qhfpyT-40" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=宋体;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="439.5799999999999" y="290" as="sourcePoint" />
+            <mxPoint x="439.5799999999999" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Dm29dhwyNFMo1qhfpyT-41" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=宋体;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="659.5799999999999" y="290" as="sourcePoint" />
+            <mxPoint x="659.5799999999999" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Dm29dhwyNFMo1qhfpyT-42" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.696;exitY=1.014;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=宋体;" edge="1" parent="1" source="4Dm29dhwyNFMo1qhfpyT-20" target="4Dm29dhwyNFMo1qhfpyT-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="568" y="270" as="sourcePoint" />
+            <mxPoint x="640" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="568" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
