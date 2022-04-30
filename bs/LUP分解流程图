@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-04-30T07:22:18.665Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" version="17.5.0" etag="yvlwHtaOJ0t0TE6duC0E" type="github"><diagram id="JFjKeZD2Y0RWQVVFH96P">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-30T07:34:43.698Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="7XnLB1Gi5xZn4NijsZ6w" version="17.5.0" type="github">
+  <diagram id="JFjKeZD2Y0RWQVVFH96P" name="第 1 页">
+    <mxGraphModel dx="1221" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="42ULZaocM-UqLzX1ewb1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="1" source="42ULZaocM-UqLzX1ewb1-1" target="42ULZaocM-UqLzX1ewb1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="42ULZaocM-UqLzX1ewb1-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="365" y="30" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="42ULZaocM-UqLzX1ewb1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="1" source="42ULZaocM-UqLzX1ewb1-2" target="42ULZaocM-UqLzX1ewb1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="42ULZaocM-UqLzX1ewb1-2" value="输入矩阵A" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="350" y="90" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="42ULZaocM-UqLzX1ewb1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="1" source="42ULZaocM-UqLzX1ewb1-3" target="42ULZaocM-UqLzX1ewb1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="42ULZaocM-UqLzX1ewb1-3" value="矩阵LUP分解&lt;br&gt;生成{P,L,D,U}" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="350" y="170" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="42ULZaocM-UqLzX1ewb1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="1" source="42ULZaocM-UqLzX1ewb1-4" target="42ULZaocM-UqLzX1ewb1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="42ULZaocM-UqLzX1ewb1-4" value="LUP矩阵求逆&lt;br&gt;生成{P^(-1),L^(-1),&lt;br&gt;D^(-1),U^(-1)}" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="350" y="290" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="42ULZaocM-UqLzX1ewb1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="1" source="42ULZaocM-UqLzX1ewb1-5" target="42ULZaocM-UqLzX1ewb1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="42ULZaocM-UqLzX1ewb1-5" value="逆矩阵相乘，生成inv(A)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="350" y="410" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="42ULZaocM-UqLzX1ewb1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=宋体;" edge="1" parent="1" source="42ULZaocM-UqLzX1ewb1-6" target="42ULZaocM-UqLzX1ewb1-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="42ULZaocM-UqLzX1ewb1-6" value="输出B=inv(A)" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="350" y="530" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="42ULZaocM-UqLzX1ewb1-7" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="365" y="610" width="70" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
